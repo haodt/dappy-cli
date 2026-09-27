@@ -5,9 +5,8 @@ The application source is maintained separately in a private repository.
 Downloading requires no GitHub account. Dappy sign-in and project access are
 required to use account and project commands.
 
-**Release status:** the first version, `0.1.0`, is being prepared. No installable
-release has been published yet. It will be published after the matching Dappy
-backend is deployed. The install commands below apply once that release exists.
+**Release status:** [CLI 0.1.0](https://github.com/haodt/dappy-cli/releases/tag/v0.1.0)
+is available. The matching agent-runtime backend is deployed in production.
 
 ## Install
 
@@ -68,8 +67,9 @@ Published versions are never overwritten by our release workflow.
 ## Host an agent runtime
 
 Agent execution also needs Codex CLI **0.155.0**, installed and authorized
-separately. It is not bundled with this download. The new runtime backend must
-be deployed before enrollment is available.
+separately. It is not bundled with this download. Keep its complete native
+installation together, including the matching `codex-code-mode-host` helper;
+copying only the `codex` executable is insufficient for tool execution.
 
 After signing in to the intended Dappy account, open **Agents → Runtimes →
 Connect runtime** in the application for enrollment instructions. Start with a
